@@ -7,36 +7,6 @@
 	},
 	"item": [
 		{
-			"name": "https://santa-secret.ru/api/account",
-			"id": "ec2b3a93-26d5-474a-a2d7-88242bac09e2",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "GET",
-				"header": [],
-				"body": {
-					"mode": "raw",
-					"raw": "",
-					"options": {
-						"raw": {
-							"language": "json"
-						}
-					}
-				},
-				"url": {
-					"raw": "{{baseUrl}}/account",
-					"host": [
-						"{{baseUrl}}"
-					],
-					"path": [
-						"account"
-					]
-				}
-			},
-			"response": []
-		},
-		{
 			"name": "login",
 			"event": [
 				{
@@ -84,6 +54,36 @@
 					],
 					"path": [
 						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://santa-secret.ru/api/account",
+			"id": "ec2b3a93-26d5-474a-a2d7-88242bac09e2",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/account",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"account"
 					]
 				}
 			},
