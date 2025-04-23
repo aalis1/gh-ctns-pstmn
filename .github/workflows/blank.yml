@@ -15,5 +15,5 @@ jobs:
       
       - name: Run API tests
         run: |
-          postman collection run "41760856-2ed299f2-ddd4-4b3e-a337-09f462e8c615" -e "41760856-12eee88e-1781-4366-88fa-40d8bafa201e"
+          postman collection run "postman/collections/santa.json" -e "santa-enviroment.postman_environment.json"
      
